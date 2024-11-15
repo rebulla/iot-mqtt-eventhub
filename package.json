@@ -1,0 +1,17 @@
+{
+  "name": "event-hub-codelab",
+  "version": "1.0.0",
+  "description": "Event Hub Codelab for ioT MasterClass",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "stop": "node server.stop.js"
+  },
+  "author": "Willian Rébulla",
+  "license": "Creative Commons",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "mqtt": "^4.3.7"
+  }
+}
